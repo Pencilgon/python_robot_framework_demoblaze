@@ -1,0 +1,32 @@
+Test Case 1: Sign Up New User
+Open the signup modal on the home page.
+Enter a new username and password in the signup form.
+Click the signup button.
+Handle the confirmation alert by accepting it.
+Close the signup modal.
+Open the login modal.
+Enter the same username and password to log in.
+Click the login button to complete login.
+
+Test Case 2: Verify Category Navigation
+Select the "Phones" category from the home page.
+Verify that products for phones are displayed.
+Select the "Monitors" category.
+Verify that products for monitors are displayed.
+Select the "Laptops" category.
+Verify that products for laptops are displayed.
+
+Test Case 3: Add Product To Cart
+Select the "Laptops" category on the home page.
+Open the product page for a specific laptop.
+Add the laptop product to the cart.
+Handle the confirmation alert by accepting it.
+
+Test Case 4: Place Order From Cart
+Open the shopping cart page.
+Verify that the previously added laptop product is present in the cart.
+Click the "Place Order" button.
+Fill in the order form with name, country, city, credit card number, month, and year.
+Click the "Purchase" button to complete the order.
+Verify that the purchase confirmation is displayed.
+Click the "Confirm" button to finalize the purchase.
