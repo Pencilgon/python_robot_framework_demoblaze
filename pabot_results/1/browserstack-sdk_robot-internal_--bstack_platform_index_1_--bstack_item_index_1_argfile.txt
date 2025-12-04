@@ -1,0 +1,18 @@
+--suite Tests.DemoblazeTests
+--variable BSTACKDEFLOCALIDENTIFIER:
+--variable BSTACKPLATFORMINDEX:1
+--variable CALLER_ID:0118c390784749679c07ce93a9450ac0
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:1
+--variable PABOTNUMBEROFPROCESSES:3
+--variable PABOTQUEUEINDEX:1
+--variable PABOTLASTLEVEL:Tests.DemoblazeTests.PABOT_noend
+--listener C:\Users\d.orazbak\Downloads\Новая папка (3)\.venv\Lib\site-packages\browserstack_sdk\bstack_robot_listener.py
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\1
+--consolecolors off
+--consolemarkers off
+tests

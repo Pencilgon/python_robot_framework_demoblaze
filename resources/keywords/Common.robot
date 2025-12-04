@@ -1,11 +1,14 @@
 *** Settings ***
 Library    SeleniumLibrary
-Variables  ../testdata/testData.py
+
+*** Variables ***
+${REMOTE_URL}    https://hub.browserstack.com/wd/hub
 
 *** Keywords ***
-Open Browser To Home
-    Open Browser    ${base_url}    chrome
+Open Browser To URL
+    [Arguments]    ${url}    @{rest}
+    Open Browser    ${url}    chrome    remote_url=${REMOTE_URL}
     Maximize Browser Window
 
 Close Browser
-    Close All Browsers
+    Close Browser

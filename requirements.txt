@@ -1,2 +1,12 @@
+# Robot Framework core
 robotframework
+
+# Selenium support
 robotframework-seleniumlibrary
+
+# YAML support for reading browserstack.yml
+robotframework-yamllibrary
+PyYAML
+
+# BrowserStack local testing support
+browserstack-local

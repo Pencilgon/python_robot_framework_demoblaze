@@ -1,0 +1,29 @@
+2025-12-04T11:25:25Z [browserstack_sdk.__init__][INFO] - SDK run started with id: 850415ef-bd1c-469a-b00e-836df49b229e
+2025-12-04T11:25:25Z [browserstack_sdk.__init__][INFO] - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-12-04T11:25:29Z [browserstack_sdk.__init__][INFO] - Setting up for Browserstack, using framework: robot
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.DemoblazeTests                                                          
+==============================================================================
+2025-12-04T11:25:29Z [browserstack_sdk.__init__][INFO] - Completed setup!
+1. Sign Up New User                                                   | PASS |
+------------------------------------------------------------------------------
+2. Verify Category Navigation                                         | PASS |
+------------------------------------------------------------------------------
+3. Add Product To Cart                                                | PASS |
+------------------------------------------------------------------------------
+4. Place Order From Cart                                              | PASS |
+------------------------------------------------------------------------------
+Tests.DemoblazeTests                                                  | FAIL |
+Suite teardown failed:
+Recursive execution stopped.
+
+4 tests, 0 passed, 4 failed
+==============================================================================
+Tests                                                                 | FAIL |
+4 tests, 0 passed, 4 failed
+==============================================================================
+Output:  C:\Users\d.orazbak\Downloads\Новая папка (3)\pabot_results\2\output.xml
+2025-12-04T11:26:12Z [browserstack_sdk.__init__][INFO] - Handling session close
+2025-12-04T11:26:14Z [browserstack_sdk.__init__][INFO] - All done!

@@ -1,5 +1,5 @@
 *** Settings ***
-Variables    ../resources/testdata/testData.py
+Variables    ../testdata/testData.py
 Resource     ../resources/keywords/Common.robot
 Resource     ../resources/pages/HomePage.robot
 Resource     ../resources/pages/SignupPage.robot
@@ -7,9 +7,8 @@ Resource     ../resources/pages/LoginPage.robot
 Resource     ../resources/pages/ProductPage.robot
 Resource     ../resources/pages/CartPage.robot
 
-Suite Setup       Common.Open Browser To Home
+Suite Setup       Common.Open Browser to URL    ${base_url}
 Suite Teardown    Common.Close Browser
-
 
 *** Test Cases ***
 1. Sign Up New User
