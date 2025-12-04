@@ -1,5 +1,5 @@
-userName: ${BROWSERSTACK_USERNAME}
-accessKey: ${BROWSERSTACK_ACCESS_KEY}
+userName: mrpotato_SDtcwN
+accessKey: QqHUbN7sc7wdjybrKj6t
 framework: robot
 platforms:
   - os: Windows
